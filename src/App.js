@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import LoginPage from "./pages/Login/LoginPage.js";
+import MyHeader from "./components/Header/Header.js";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <MyHeader />
+        <LoginPage />
       </header>
     </div>
   );
