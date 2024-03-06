@@ -1,8 +1,30 @@
+import { Link, useNavigate } from "react-router-dom";
+
 const MyHeader = () => {
+  const navigate = useNavigate;
+  const ulStyle = { listStyle: "none" };
+  const goBack = () => {
+    navigate(-1);
+  };
   return (
-    <header>
-      <h2>This is my header</h2>
-    </header>
+    <div>
+      <header>
+        <h1>___Brand Name HERE___</h1>
+        <div>
+          <ul style={ulStyle}>
+            <li>
+              <button onClick={goBack}>back</button>
+            </li>
+            <li>
+              <Link to="/login">login</Link>
+            </li>
+            <li>
+              <Link to="/test">test</Link>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
   );
 };
 
