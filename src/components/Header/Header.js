@@ -21,6 +21,9 @@ const MyHeader = () => {
             <li>
               <Link to="/test">test</Link>
             </li>
+            <li>
+              <Link to="/guide">guide</Link>
+            </li>
           </ul>
         </div>
       </header>
