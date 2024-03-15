@@ -22,7 +22,13 @@ const MyHeader = () => {
               <Link to="/test">test</Link>
             </li>
             <li>
-              <Link to="/guide">guide</Link>
+              <Link to="/state">state</Link>
+            </li>
+            <li>
+              <Link to="/hook">hooks</Link>
+            </li>
+            <li>
+              <Link to="/ref">ref</Link>
             </li>
           </ul>
         </div>

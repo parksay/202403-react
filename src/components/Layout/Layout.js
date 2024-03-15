@@ -15,7 +15,12 @@ const MyLayout = () => {
           <br />
           <br />
         </div>
-        <Outlet />
+        <div
+          className="contents"
+          style={{ border: "3px red dashed", padding: "1rem", margin: "3rem" }}
+        >
+          <Outlet />
+        </div>
         <div>
           <br />
           <br />

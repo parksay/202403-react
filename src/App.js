@@ -4,7 +4,9 @@ import LoginPage from "./pages/Login/LoginPage.js";
 import TestPage from "./pages/TestPage/Test.js";
 import MyLayout from "./components/Layout/Layout.js";
 import HomePage from "./pages/Home/HomePage.js";
-import GuidePage from "./pages/Guide/GuidePage.js";
+import GuideState from "./pages/Guide/GuideState.js";
+import GuideHook from "./pages/Guide/GuideHook.js";
+import GuideRef from "./pages/Guide/GuideRef.js";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage.js";
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/test" element={<TestPage />} />
-        <Route path="/guide" element={<GuidePage />} />
+        <Route path="/state" element={<GuideState />} />
+        <Route path="/hook" element={<GuideHook />} />
+        <Route path="/ref" element={<GuideRef />} />
       </Route>
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
