@@ -1,0 +1,24 @@
+.my-layout {
+  border: 1px solid red;
+  display: flex;
+}
+
+.my-sidebar {
+  border: 1px solid green;
+  width: 10%;
+  padding: 1rem;
+}
+
+.my-contents {
+  border: 1px solid yellow;
+  width: 100%;
+}
+
+.my-header {
+  border: 1px solid blue;
+}
+
+main {
+  border: 3px dashed black;
+  padding: 2rem;
+}
