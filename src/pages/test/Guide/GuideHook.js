@@ -1,5 +1,5 @@
 // import React, { ReactDOM, useState, useEffect } from "react";
-import { default as useMyHook } from "./../../hooks/useMyHook";
+import { default as useMyHook } from "./../../../hooks/useMyHook";
 
 const GuideHook = () => {
   const hello = useMyHook(8);
